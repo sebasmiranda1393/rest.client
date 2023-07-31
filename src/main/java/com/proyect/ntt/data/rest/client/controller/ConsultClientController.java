@@ -20,7 +20,7 @@ public class ConsultClientController {
     @GetMapping("/{documentType}/{documentNumber}")
     public Client getClient(@PathVariable(name = "documentType") String documentType,
             @PathVariable(name = "documentNumber") int documentNumber) {
-        return clientService.gClient(documentType,documentNumber);
+        return clientService.getClient(documentType,documentNumber);
     }
 
 }

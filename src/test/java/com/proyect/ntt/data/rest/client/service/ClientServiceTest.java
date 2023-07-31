@@ -14,7 +14,7 @@ class ClientServiceTest {
     public void test_WhenDocumentTypeIsInvalidThenShouldThrowBadRequestException(){
 
         BadRequestException exception = assertThrows(BadRequestException.class, () ->
-                clientService.gClient("A", 23445322));
+                clientService.getClient("A", 23445322));
         assertTrue(exception.getMessage().equals("Inconsistent data: Document type [ A ] is not allow"));
     }
 

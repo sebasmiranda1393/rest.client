@@ -13,7 +13,7 @@ public class Client {
     private String firstName;
     private String secondName;
     private String firstLastName;
-    private String secondtLastName;
+    private String secondLastName;
     private String phone;
     private String address;
     private String city;
