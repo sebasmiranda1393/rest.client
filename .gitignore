@@ -1,7 +1,11 @@
 /target/
 !.mvn/wrapper/maven-wrapper.jar
 
-./.idea
+.idea/
+.idea
+
+# sbteclipse plugin
+.target
 
 # Compiled class file
 *.class
