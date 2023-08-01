@@ -1,6 +1,6 @@
 package com.proyect.ntt.data.rest.client.util;
 
-public enum ErrorEnum {
+public enum ExceptionErrorEnum {
 
     NO_FOUND("Client not found"),
     BAD_REQUEST("Inconsistent data: %s [ %s ] is not allow");
@@ -11,7 +11,8 @@ public enum ErrorEnum {
         return this.value;
     }
 
-    private ErrorEnum(String value) {
+    private ExceptionErrorEnum(String value) {
         this.value = value;
     }
+
 }
